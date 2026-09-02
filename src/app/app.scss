@@ -1,0 +1,11 @@
+.space-background {
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+
+  background:
+    linear-gradient(to bottom right, #000000, transparent 50%),
+    radial-gradient(circle at center, #090a0f, #220011);
+}

@@ -1,0 +1,11 @@
+<div class="space-scene">
+  <div class="planet"></div>
+
+  @for (satellite of satellites(); track satellite.icon) {
+    <div class="satellite" [ngStyle]="satellite.style"> 
+      <div class="icon-wrapper">
+        <mat-icon>{{ satellite.icon }}</mat-icon>
+      </div>
+    </div>  
+  }
+</div>
